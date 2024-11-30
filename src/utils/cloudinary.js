@@ -18,7 +18,8 @@ import fs from "fs"
       return response
      } catch (error){
       fs.unlinkSync(localfilepath)
-     }
+     }};
+
+     export {uploadOnCloudinary}
 
 
-    }
