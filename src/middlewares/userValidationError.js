@@ -2,7 +2,6 @@ import { userSchema } from "../Validators/schemaDefined.js"
 import { ApiError } from "../utils/ApiError.js"
 
 
-
 const validateUser = async (req,res,next) => {
 
  const UserListing = req.body

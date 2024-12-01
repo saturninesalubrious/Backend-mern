@@ -5,6 +5,6 @@ import { validateUser } from "../middlewares/userValidationError.js";
 
 const router = Router()
 
-router.route("/registeredUser").post(upload.fields([{name: "avatar", maxCount: 1}, {name: "CoverImage", maxCount: 1}]),validateUser,registerUser)
+router.route("/registeredUser").post(upload.fields([{name: "avatar", maxCount: 1}, {name: "coverImage", maxCount: 1}]),validateUser,registerUser)
 
 export default router
